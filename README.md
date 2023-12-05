@@ -7,10 +7,10 @@ every quote are contained in fuctions
 each function have dictionary where the quotes are writen inside, each quote have unique numbers as key
 with the help of the random module we can call a unique key every time the function is called 
 
-#def mark():
- #   gen = random.randint(1,50)
-  #  name = " --Mark zuckerberg"
-  #  mark = {
+def mark():
+    gen = random.randint(1,50)
+    name = " --Mark zuckerberg"
+    mark = {
             1:"The biggest risk is not taking any risk",
     }
     return(mark[gen] + name)
