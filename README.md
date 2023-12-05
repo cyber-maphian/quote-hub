@@ -3,9 +3,9 @@
 #is a python package that is open source and free for collaboration 
 #just fork the repo, create a branch and send a pull request to add your code, and after were view it, it will be added to the package and accessible to every one
 
-every quote are contained in fuctions
-each function have dictionary where the quotes are writen inside, each quote have unique numbers as key
-with the help of the random module we can call a unique key every time the function is called 
+#every quote are contained in fuctions
+#each function have dictionary where the quotes are writen inside, each quote have unique numbers as key
+#with the help of the random module we can call a unique key every time the function is called 
 
 def mark():
     gen = random.randint(1,50)
@@ -15,7 +15,7 @@ def mark():
     }
     return(mark[gen] + name)
 
-and finally include your function in the all function below
+#and finally include your function in the all function below
 
 def all():
     gen = random.randint(1,2)
@@ -29,7 +29,7 @@ def all():
     elif gen == 2:
         return zuck
 
-HOW TO USE THE PACKAGE
+#HOW TO USE THE PACKAGE
 #quotehub is a python package that provides you with random quotes
 #how to use:
 
