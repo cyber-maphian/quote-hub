@@ -23,11 +23,11 @@
         zuck = mark()
 
     
-    if gen == 1:
-        return example
+        if gen == 1:
+            return example
     
-    elif gen == 2:
-        return zuck
+        elif gen == 2:
+            return zuck
 
 #HOW TO USE THE PACKAGE
 #quotehub is a python package that provides you with random quotes
